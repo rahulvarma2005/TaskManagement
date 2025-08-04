@@ -1,6 +1,7 @@
 package com.resume.TaskManagement.Security;
 
 import com.resume.TaskManagement.Security.jwt.AuthEntryPointJwt;
+import com.resume.TaskManagement.Security.jwt.AuthTokenFilter;
 import com.resume.TaskManagement.Security.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
